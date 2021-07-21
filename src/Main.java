@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int ticket = 8799;
-        int Quantity = 6;
-        int totalcost = ticket * Quantity;
+        int ticket = 1215599;
+        int quantity = 10;
+        int totalCost = ticket * quantity;
         int each = 20;
-        int Bonusrubles = totalcost / each;
-        System.out.println(Bonusrubles);
+        int bonusRubles = totalCost / each;
+        System.out.println(bonusRubles);
 
     }
 }
