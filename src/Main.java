@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int ticket = 1215599;
-        int quantity = 10;
-        int totalCost = ticket * quantity;
-        int each = 20;
-        int bonusRubles = totalCost / each;
+     int ticket = 16_000;
+     int miles = 1;
+     int bonus = 20;
+     int bonusRubles = ticket * miles / bonus;
         System.out.println(bonusRubles);
 
     }
